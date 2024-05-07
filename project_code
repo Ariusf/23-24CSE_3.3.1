@@ -1,0 +1,14 @@
+print ("Welcome, what type of conversion would you like to do. DNA - RNA, RNA - DNA, RNA - Basses, or DNA - Basses?")
+conversion_type = input("Conversion type:")
+
+if conversion_type == "DNA - RNA":
+  print("you've selected DNA - RNA")
+  
+if conversion_type == "RNA - DNA":
+  print("you've selected RNA - DNA")
+  
+if conversion_type == "RNA - Basses":
+  print("you've selected RNA - Basses")
+  
+if conversion_type == "DNA - Basses":
+  print("you've selected DNA - Basses")
